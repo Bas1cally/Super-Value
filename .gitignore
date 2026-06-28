@@ -1,0 +1,25 @@
+# Secrets — niemals committen (CLAUDE.md §Secrets)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Playwright-Profile / Browser-State
+.playwright/
+playwright-profiles/
+
+# Logs & lokale Daten
+*.log
+logs/
+*.sqlite3

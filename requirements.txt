@@ -1,0 +1,15 @@
+# Laufzeit-Abhängigkeiten (siehe CLAUDE.md / VALUE_BOT_PLAN.md, Tech-Stack)
+# Die Engine selbst hängt nur an pydantic — die übrigen Pakete brauchen
+# Sources/Storage/Alerts/Scheduler (folgende Phasen).
+httpx>=0.27
+pydantic>=2.7
+pydantic-settings>=2.3
+SQLAlchemy>=2.0
+alembic>=1.13
+psycopg[binary]>=3.2
+redis>=5.0
+APScheduler>=3.10
+python-telegram-bot>=21.0
+anthropic>=0.39
+rapidfuzz>=3.9
+playwright>=1.45
